@@ -3,147 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Makayo Bridge Services | Institutional Integration</title>
-    <meta name="description" content="Makayo Bridge Services LLC: Deploying proprietary navigational logic via the Makayo Gateway Engine and Makayo Route Logic. Dual Patents Pending.">
-    <meta name="keywords" content="Makayo Gateway Engine, Makayo Route Logic, Navigational Logic, Institutional Integration, Seattle LLC, Patent Pending Software">
-    <meta name="author" content="Makayo Bridge Services LLC">
-
+    <title>Makayo Bridge Services | Institutional Portal</title>
+    <meta name="description" content="Makayo Bridge Services LLC: Modular intelligence layers for global navigation and high-security institutional data environments.">
     <style>
+        :root {
+            --bg-color: #0a0a0a;
+            --text-main: #e0e0e0;
+            --accent-gold: #c5a059;
+            --border-gray: #333;
+            --warning-red: #a33b3b;
+        }
         body {
-            background-color: #0f172a;
-            color: #f8fafc;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             margin: 0;
-            text-align: center;
+            line-height: 1.6;
         }
         .container {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            max-width: 700px;
-            padding: 40px 20px;
+            max-width: 650px;
+            text-align: center;
+            padding: 50px;
+            border: 1px solid var(--border-gray);
+            background: rgba(255, 255, 255, 0.02);
+            position: relative;
+        }
+        .status-header {
+            font-size: 0.7rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin-bottom: 25px;
+            font-weight: bold;
         }
         h1 {
-            font-size: 2.8rem;
-            margin-bottom: 0.5rem;
-            letter-spacing: -0.025em;
-            color: #f8fafc;
-        }
-        .system-highlight {
-            font-size: 1.1rem;
-            color: #38bdf8;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            letter-spacing: 0.05em;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin: 0;
+            font-size: 2rem;
             text-transform: uppercase;
+        }
+        .tagline {
+            font-size: 0.85rem;
+            color: #888;
+            margin: 15px 0 40px 0;
+            letter-spacing: 1px;
         }
         p {
-            font-size: 1.1rem;
-            color: #94a3b8;
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-        .patent-badge {
-            display: inline-block;
-            padding: 0.5rem 1.25rem;
-            background-color: rgba(56, 189, 248, 0.1);
-            border: 1px solid #38bdf8;
-            border-radius: 4px;
-            font-size: 0.85rem;
-            color: #38bdf8;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            margin-bottom: 1.5rem;
-            font-weight: 800;
+            font-size: 1.05rem;
+            color: #ccc;
+            margin-bottom: 45px;
         }
         .contact-btn {
             display: inline-block;
-            background-color: #38bdf8;
-            color: #0f172a;
-            padding: 1.1rem 2.8rem;
-            border-radius: 8px;
+            padding: 18px 45px;
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
             text-decoration: none;
-            font-weight: 700;
             transition: all 0.3s ease;
-            box-shadow: 0 0 25px rgba(56, 189, 248, 0.2);
-            font-size: 1.05rem;
+            font-weight: bold;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
         }
         .contact-btn:hover {
-            background-color: #7dd3fc;
-            transform: translateY(-2px);
-            box-shadow: 0 0 35px rgba(56, 189, 248, 0.4);
-        }
-        .phone-link {
-            display: block;
-            margin-top: 1.75rem;
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: #f8fafc;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        .phone-link:hover {
-            color: #38bdf8;
-        }
-        footer {
-            padding: 3rem 20px;
-            border-top: 1px solid #1e293b;
-            width: 100%;
-            background-color: #0b1222;
+            background: var(--accent-gold);
+            color: var(--bg-color);
         }
         .legal-notice {
-            margin: 15px auto;
-            max-width: 600px;
-            color: #475569;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #222;
             font-size: 0.75rem;
-            line-height: 1.5;
+            color: #555;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        .warning-text {
+            color: #777;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 10px;
             text-transform: uppercase;
-            letter-spacing: 0.03em;
-            text-align: center;
+            letter-spacing: 1px;
+        }
+        .footer-info {
+            margin-top: 25px;
+            font-size: 0.7rem;
+            color: #444;
+            letter-spacing: 1px;
+            text-transform: uppercase;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="patent-badge">Dual Patent Pending</div>
+        <div class="status-header">Dual Patent Pending • Proprietary Systems</div>
         
         <h1>Makayo Bridge Services</h1>
-        
-        <div class="system-highlight">
-            Makayo Gateway Engine &bull; Makayo Route Logic
-        </div>
+        <div class="tagline">Modular Intelligence Layers &bull; Secure Gateway Architecture</div>
 
         <p>
-            Deploying proprietary navigational logic and secure gateway solutions for institutional infrastructure. 
+            Engineered for global navigation ecosystems and high-security institutional data environments. 
             Currently accepting inquiries for pilot programs and commercial licensing.
         </p>
         
-        <a href="mailto:makayobridgeservices@gmail.com" class="contact-btn">Contact for Inquiry</a>
-        
-        <a href="tel:2066598257" class="phone-link">Direct: 206-659-8257</a>
-    </div>
-
-    <footer>
-        <p style="margin: 0; color: #94a3b8; font-weight: 600; font-size: 0.9rem;">
-            &copy; 2026 Makayo Bridge Services LLC. All Rights Reserved.
-        </p>
+        <a href="mailto:makayobridgeservices@gmail.com" class="contact-btn">INSTITUTIONAL INQUIRY PORTAL</a>
         
         <div class="legal-notice">
-            <strong>Proprietary Notice:</strong> The Makayo Gateway Engine and Makayo Route Logic are protected under pending patent applications. 
-            Unauthorized use, reproduction, or reverse engineering of navigational logic systems is strictly prohibited. 
-            All system integrations are subject to institutional non-disclosure protocols.
+            <span class="warning-text">Proprietary Rights Notice</span>
+            All logic architectures, modular layers, and gateway protocols displayed or referenced herein are protected under 17 U.S.C. § 102 and are subject to pending patent protections. Unauthorized duplication, reverse engineering, or distribution of these proprietary navigational systems is strictly prohibited and will be prosecuted to the fullest extent of the law.
         </div>
 
-        <p style="margin: 10px 0 0 0; color: #475569; font-size: 0.8rem;">
-            Seattle, WA | Institutional Inquiries Only
-        </p>
-    </footer>
+        <div class="footer-info">
+            &copy; 2026 MAKAYO BRIDGE SERVICES LLC | SEATTLE, WA<br>
+            Direct: 206-659-8257 | makayobridgeservices@gmail.com
+        </div>
+    </div>
 </body>
 </html>
