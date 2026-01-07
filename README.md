@@ -44,6 +44,7 @@ All software is delivered under strict commercial licensing terms with no implie
 
 ## Commercial & Licensing Inquiries
 **makayobridgeservices@gmail.com**
+**206-659-8257**
 
 ## Headquarters
 King County, Washington, USA
