@@ -38,4 +38,10 @@ We provide enterprise-grade licensing models. Authorized partners receive:
 **Commercial Inquiries:** [makayobridgeservices@gmail.com](mailto:makayobridgeservices@gmail.com) | **Phone:** 206-659-8257
 
 ---
+This software is proprietary and confidential. No part of this repository may be copied, modified, distributed, or used without explicit written permission from Makayo Bridge Services LLC.
+
+
+**Invented by Mark Yosinao. All implementation and associated intellectual property in this repository are owned exclusively by Makayo Bridge Services LLC.**
+
+
 *© 2025–2026 MAKAYO BRIDGE SERVICES LLC. All Rights Reserved. King County, Washington, USA.*
